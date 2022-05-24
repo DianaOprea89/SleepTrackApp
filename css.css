@@ -1,0 +1,50 @@
+.do-header{
+    background-color: #121f30;
+    color: white;
+}
+.do-faq{
+    color: #22c022;
+}
+.do-row1{
+    background-color: #34d0e7;
+}
+.do-row2{
+    background-color:#fc753f;
+}
+.do-row3{
+    background-color:#ce4980;
+}
+.do-body{
+    max-width: 700px;
+}
+.do-logo{
+    max-width: 50px;
+}
+.do-link{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+hr.style1{
+    border-top: 1px solid #c3c5d0;
+}
+hr{
+    background-color: #121f30;
+    color: white;
+}
+.do-row21{
+    border-top: 1px solid #8c8b8b;
+}
+
+.do-fonts{
+    font-size: 18px;
+}
+.do-start-pic{
+    padding: 50px;
+    max-height: 700px;
+    max-width: 300px;
+    border: 1px dotted #34d0e7 ;
+    border-radius: 60%;
+    background-color: #34d0e7;
+
+}
