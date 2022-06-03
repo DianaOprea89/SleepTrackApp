@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sleep better</title>
+    <title>Stop</title>
     <link href="css.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -15,55 +15,52 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
-<body class="container do-body">
+<body>
 <header>
     <div class="container p-5 do-header ">
         <div class="row">
-            <div class="col-2 ">
-                <img  class="do-logo d-inline mx-1 " src="Images/EE.jpg" alt="logo">
-                <h5 class="d-inline mx-1">Erica</h5>
+            <div class="col-2">
+                <h3>   <a href="index.html" class="do-link">X</a></h3>
+
+
             </div>
-            <div class="col-8 justify-content-center ">
-                <img src="Images/top-logo.jpg" alt="apple">
+            <div class="col-8 text-center">
+                <h4 class="d-inline mx-1">Add sleep</h4>
             </div>
-            <div class="col-2 do-faq">
+            <div class="col 2 do-faq">
                 <h5>FAQ</h5>
             </div>
         </div>
     </div>
 </header>
-<!-- Content -->
-<div class="container do-header " >
-    <a href="Sleep.html" class="do-link ">
-        <div class=" p-5  mx-5 mb-5 do-row1  ">
-        <div class="do-pic1 ">
-            <img src="Images/sleep.jpg" alt="sleep">
-        </div>
-        <div  class="do-text1">
-            <h3> Sleep</h3>
-            <h4>4h 18 m ago * 9h 47 m</h4>
-        </div>
-    </a>
 
-    </div>
-    <div class="  m-5 p-5 do-row2 ">
-        <div class="do-pic1 ">
-            <img src="Images/food.jpg" alt="food">
+<!--content-->
+<div class="container do-header">
+    <div class="row do-row21">
+
+        <div class="col-6 text-start py-5 px-5">
+            <h3>Start Time:</h3>
         </div>
-        <div class="do-text1">
-            <h3> Feeding</h3>
-            <h4>4h 18 m ago * 9h 47 m</h4>
-        </div>
-    </div>
-    <div class=" mx-5 p-5 do-row3 ">
-        <div class="do-pic1 ">
-            <img src="Images/solids.jpg" alt="solids">
-        </div>
-        <div class="do-text1">
-            <h3> Solids</h3>
-            <h4>4h 18 m ago * 9h 47 m</h4>
+
+        <div class="col-6 text-end py-5 px-5">
+            <h4>Today,  10:45</h4>
         </div>
     </div>
+
+    <div id='digital-clock ' class="text-center do-stop-clock do-row21">
+        <span id='hour'></span><span class='red-dot '>00:</span><span id='min'></span><span class='red-dot'>00:01</span><span id='second'></span>
+    </div>
+    <div id='digital-clock ' class="text-center do-stop-text">
+        <span id='text'></span><span >Hours </span> <span id='text'></span><span >Minutes </span><span id='text'></span><span >Seconds </span>
+    </div>
+
+    <div class=" do-start-pic d-flex justify-content-center">
+        <img src="Images/stop.jpg" alt="start" >
+    </div>
+
+
+
+</div>
 </div>
 <footer class="container">
     <div class="d-inline-block">
@@ -79,6 +76,5 @@
         <h6>Contact us:</h6>
     </div>
 </footer>
-
 </body>
 </html>
